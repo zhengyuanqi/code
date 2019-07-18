@@ -1,0 +1,32 @@
+/* 公共 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    -webkit-font-smoothing: antialiased;
+} */
+.wrapper{
+    width: 1230px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.arrow{
+    
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border: 3px solid transparent;
+    border-top: 3px solid #ddd;
+    position: absolute;
+    right:5px;
+    top:17px;
+    transition: transform 0.5 linear ;
+}
